@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitsisivu - Vitsi nro 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vitsisivu</h1>
+
+        <nav>
+            <a href="index.html">Etusivu</a>
+            <a class="aktiivinen" href="vitsi1.html">Vitsi nro 1</a>
+            <a href="vitsi2.html">Vitsi nro 2</a>
+            <a href="vitsi3.html">Vitsi nro 3</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="vitsi">
+            <h2>Vitsi nro 1</h2>
+
+            <p class="kysymys">
+                Mitä tietokone sanoi toiselle tietokoneelle?
+            </p>
+
+            <button class="vastaus-nappi" data-vastaus="vastaus1">No?</button>
+
+            <p id="vastaus1" class="vastaus" hidden>
+                Nähdään verkossa!
+            </p>
+            <img id="kuva1" class="nauruhymio" src="images/nauruhymio.png" alt="Naurava hymiö" hidden>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Vitsisivu</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

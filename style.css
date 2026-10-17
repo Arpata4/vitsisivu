@@ -1,0 +1,120 @@
+body {
+    background-color: #121826;
+    color: #e5e7eb;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #1f2937;
+    border-radius: 12px;
+}
+
+h1 {
+    color: #60a5fa;
+    margin-bottom: 8px;
+}
+
+h2 {
+    color: #93c5fd;
+    margin-top: 0;
+}
+
+nav {
+    margin-top: 24px;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #334155;
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 10px 14px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #475569;
+    color: #ffffff;
+}
+
+.vitsi {
+    background-color: #1f2937;
+    margin-top: 20px;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.kysymys {
+    font-size: 18px;
+}
+
+button {
+    background-color: #60a5fa;
+    color: #111827;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #93c5fd;
+}
+
+.vastaus {
+    background-color: #172554;
+    color: #bfdbfe;
+    margin-top: 16px;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    color: #9ca3af;
+    margin-top: 30px;
+}
+
+/* Puhelimella navigointinapit näkyvät siististi allekkain. */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 12px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+}
+nav a.aktiivinen {
+    background-color: #60a5fa;
+    color: #111827;
+    font-weight: bold;
+}
+
+.esittely {
+    background-color: #1f2937;
+    margin-top: 20px;
+    padding: 24px;
+    border-radius: 12px;
+}
+.nauruhymio {
+    width: min(100%, 420px);
+    height: auto;
+    margin-top: 16px;
+    border-radius: 12px;
+}
+.nauruhymio[hidden] {
+    display: none;
+}
